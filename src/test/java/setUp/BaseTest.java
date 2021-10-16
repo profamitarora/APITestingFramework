@@ -16,6 +16,8 @@ public class BaseTest {
 	public FileInputStream fis;
 	public ExcelReader excel = new ExcelReader(".\\src\\test\\resources\\excel\\testdata.xlsx");
 	
+	//sample comment for GIT testing
+	
 	@BeforeSuite
 	public void setUp() throws IOException
 	{
