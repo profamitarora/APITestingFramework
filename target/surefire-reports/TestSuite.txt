@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 43.979 s <<< FAILURE! - in TestSuite
+testCases.CreateCustomerTest.validateCreateCustomerAPIWithInvalidSecretKey[{email=kiran.arora@gmail.com, name=Kiran Arora, description=this is a 2nd user from Excel Data driven}](1)  Time elapsed: 20.029 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [401]
+	at testCases.CreateCustomerTest.validateCreateCustomerAPIWithInvalidSecretKey(CreateCustomerTest.java:62)
+

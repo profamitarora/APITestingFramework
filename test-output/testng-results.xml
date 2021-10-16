@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7359" started-at="2021-10-14T18:16:34Z" finished-at="2021-10-14T18:16:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7359" started-at="2021-10-14T18:16:34Z" finished-at="2021-10-14T18:16:42Z">
+      <class name="testCases.DeleteCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.DeleteCustomerTest@24c4ddae]" name="setUp" is-config="true" duration-ms="2607" started-at="2021-10-14T18:16:32Z" finished-at="2021-10-14T18:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateDeleteCustomerAPIWithValidCustomerID(java.util.Hashtable)[pri:0, instance:testCases.DeleteCustomerTest@24c4ddae]" name="validateDeleteCustomerAPIWithValidCustomerID" duration-ms="6913" started-at="2021-10-14T18:16:35Z" data-provider="data" finished-at="2021-10-14T18:16:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{id=cus_KPMuawVJaGMxrU}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteCustomerAPIWithValidCustomerID -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.DeleteCustomerTest@24c4ddae]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-10-14T18:16:42Z" finished-at="2021-10-14T18:16:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.DeleteCustomerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

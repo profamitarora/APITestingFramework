@@ -1,0 +1,11 @@
+C:\Users\SONY\eclipse-workspace\API_Testing_Framework\src\test\java\roughWork\TestProperties.java
+C:\Users\SONY\eclipse-workspace\API_Testing_Framework\src\test\java\setUp\BaseTest.java
+C:\Users\SONY\eclipse-workspace\API_Testing_Framework\src\test\java\frameworkAPIs\CreateCustomerAPI.java
+C:\Users\SONY\eclipse-workspace\API_Testing_Framework\src\test\java\utilities\TestAssertion.java
+C:\Users\SONY\eclipse-workspace\API_Testing_Framework\src\test\java\frameworkAPIs\DeleteCustomerAPI.java
+C:\Users\SONY\eclipse-workspace\API_Testing_Framework\src\test\java\testCases\DeleteCustomerTest.java
+C:\Users\SONY\eclipse-workspace\API_Testing_Framework\src\test\java\testCases\CreateCustomerTest.java
+C:\Users\SONY\eclipse-workspace\API_Testing_Framework\src\test\java\listeners\ExtentManager.java
+C:\Users\SONY\eclipse-workspace\API_Testing_Framework\src\test\java\utilities\DataProviding.java
+C:\Users\SONY\eclipse-workspace\API_Testing_Framework\src\test\java\listeners\ExtentListeners.java
+C:\Users\SONY\eclipse-workspace\API_Testing_Framework\src\test\java\utilities\ExcelReader.java

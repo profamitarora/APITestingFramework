@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="4" total="9" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28027" started-at="2021-10-15T13:52:12Z" finished-at="2021-10-15T13:52:40Z">
+    <groups>
+    </groups>
+    <test name="DeleteCustomerAPITest" duration-ms="21003" started-at="2021-10-15T13:52:12Z" finished-at="2021-10-15T13:52:33Z">
+      <class name="testCases.DeleteCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.DeleteCustomerTest@449a4f23]" name="setUp" is-config="true" duration-ms="4177" started-at="2021-10-15T13:52:08Z" finished-at="2021-10-15T13:52:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateDeleteCustomerAPIWithValidCustomerID(java.util.Hashtable)[pri:0, instance:testCases.DeleteCustomerTest@449a4f23]" name="validateDeleteCustomerAPIWithValidCustomerID" duration-ms="19949" started-at="2021-10-15T13:52:13Z" data-provider="data" finished-at="2021-10-15T13:52:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{id=cus_KPMuSUovcOjg6T}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteCustomerAPIWithValidCustomerID -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.DeleteCustomerTest@449a4f23]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-10-15T13:52:41Z" finished-at="2021-10-15T13:52:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.DeleteCustomerTest -->
+    </test> <!-- DeleteCustomerAPITest -->
+    <test name="CreateCustomerAPITest" duration-ms="28027" started-at="2021-10-15T13:52:12Z" finished-at="2021-10-15T13:52:40Z">
+      <class name="testCases.CreateCustomerTest">
+        <test-method status="FAIL" signature="validateCreateCustomerAPIWithInvalidSecretKey(java.util.Hashtable)[pri:0, instance:testCases.CreateCustomerTest@791f145a]" name="validateCreateCustomerAPIWithInvalidSecretKey" duration-ms="19893" started-at="2021-10-15T13:52:13Z" data-provider="data" finished-at="2021-10-15T13:52:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=kiran.arora@gmail.com, name=Kiran Arora, description=this is a 2nd user from Excel Data driven}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [401]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at testCases.CreateCustomerTest.validateCreateCustomerAPIWithInvalidSecretKey(CreateCustomerTest.java:62)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithInvalidSecretKey -->
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:testCases.CreateCustomerTest@791f145a]" name="validateCreateCustomerAPIWithValidSecretKey" duration-ms="6126" started-at="2021-10-15T13:52:34Z" data-provider="data" finished-at="2021-10-15T13:52:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=prof.amit.arora@gmail.com, name=Amit Arora, description=This is new user with create and delete command together}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithValidSecretKey -->
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:testCases.CreateCustomerTest@791f145a]" name="validateCreateCustomerAPIWithValidSecretKey" duration-ms="6089" started-at="2021-10-15T13:52:34Z" data-provider="data" finished-at="2021-10-15T13:52:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=kiran.arora@gmail.com, name=Kiran Arora, description=This is new user with create and delete command together}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithValidSecretKey -->
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidSecretKey(java.util.Hashtable)[pri:0, instance:testCases.CreateCustomerTest@791f145a]" name="validateCreateCustomerAPIWithValidSecretKey" duration-ms="6053" started-at="2021-10-15T13:52:34Z" data-provider="data" finished-at="2021-10-15T13:52:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=Parveen.Kumar@gmail.com, name=Parveen Kumar, description=This is new user with create and delete command together}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithValidSecretKey -->
+      </class> <!-- testCases.CreateCustomerTest -->
+    </test> <!-- CreateCustomerAPITest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="listeners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="DeleteCustomerAPITest(failed)" parallel="tests">
+    <classes>
+      <class name="testCases.DeleteCustomerTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateDeleteCustomerAPIWithValidCustomerID" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.DeleteCustomerTest -->
+    </classes>
+  </test> <!-- DeleteCustomerAPITest(failed) -->
+  <test thread-count="5" name="CreateCustomerAPITest(failed)" parallel="tests">
+    <classes>
+      <class name="testCases.CreateCustomerTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="validateCreateCustomerAPIWithInvalidSecretKey" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.CreateCustomerTest -->
+    </classes>
+  </test> <!-- CreateCustomerAPITest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

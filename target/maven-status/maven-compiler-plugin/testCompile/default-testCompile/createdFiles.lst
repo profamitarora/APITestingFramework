@@ -1,0 +1,11 @@
+frameworkAPIs\CreateCustomerAPI.class
+setUp\BaseTest.class
+utilities\DataProviding.class
+utilities\ExcelReader.class
+roughWork\TestProperties.class
+listeners\ExtentManager.class
+frameworkAPIs\DeleteCustomerAPI.class
+testCases\DeleteCustomerTest.class
+listeners\ExtentListeners.class
+utilities\TestAssertion.class
+testCases\CreateCustomerTest.class
